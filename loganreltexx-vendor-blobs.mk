@@ -131,4 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/loganreltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/loganreltexx/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/samsung/loganreltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/loganreltexx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv\
+    vendor/samsung/loganreltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
