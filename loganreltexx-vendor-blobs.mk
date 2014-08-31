@@ -16,8 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/samsung/loganreltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/loganreltexx/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/samsung/loganreltexx/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/samsung/loganreltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/loganreltexx/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/loganreltexx/proprietary/bin/thermald:system/bin/thermald \
     vendor/samsung/loganreltexx/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -77,8 +78,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/loganreltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/loganreltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/samsung/loganreltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/loganreltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/loganreltexx/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/loganreltexx/proprietary/etc/calib.dat:system/etc/calib.dat \
     vendor/samsung/loganreltexx/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/loganreltexx/proprietary/etc/sensors.dat:system/etc/sensors.dat \
@@ -126,16 +132,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/loganreltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/loganreltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
     vendor/samsung/loganreltexx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/samsung/loganreltexx/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/loganreltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/loganreltexx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/loganreltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/loganreltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
     vendor/samsung/loganreltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so
