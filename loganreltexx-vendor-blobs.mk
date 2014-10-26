@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/loganreltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/loganreltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/loganreltexx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/loganreltexx/proprietary/bin/sec-ril:system/bin/sec-ril \
     vendor/samsung/loganreltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/loganreltexx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
