@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/loganreltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/loganreltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/loganreltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/loganreltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/loganreltexx/proprietary/lib/libxml.so:system/lib/libxml.so \
