@@ -132,7 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/loganreltexx/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/loganreltexx/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/samsung/loganreltexx/propwrietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
     vendor/samsung/loganreltexx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/loganreltexx/proprietary/bin/insthk:system/bin/insthk \
