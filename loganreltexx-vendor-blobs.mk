@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/loganreltexx/proprietary/bin/radish:system/bin/radish \
