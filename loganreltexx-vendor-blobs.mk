@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
@@ -57,12 +58,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/loganreltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/loganreltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/loganreltexx/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -91,11 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/loganreltexx/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/loganreltexx/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_imx175_lls.so:system/lib/libchromatix_imx175_lls.so \
@@ -115,6 +111,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/loganreltexx/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/samsung/loganreltexx/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/samsung/loganreltexx/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/samsung/loganreltexx/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/samsung/loganreltexx/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -141,8 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/loganreltexx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/loganreltexx/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
