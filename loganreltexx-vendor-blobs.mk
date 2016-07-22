@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/loganreltexx/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/loganreltexx/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/samsung/loganreltexx/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/loganreltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/loganreltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/loganreltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
