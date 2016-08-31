@@ -133,7 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/loganreltexx/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-    vendor/samsung/loganreltexx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/loganreltexx/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/loganreltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/loganreltexx/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
