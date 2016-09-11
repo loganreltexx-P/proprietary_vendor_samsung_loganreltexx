@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/loganreltexx/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/loganreltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/loganreltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/loganreltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/loganreltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
