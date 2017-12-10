@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
