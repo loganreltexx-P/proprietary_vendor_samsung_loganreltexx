@@ -72,8 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+	vendor/samsung/loganreltexx/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd \
     vendor/samsung/loganreltexx/proprietary/etc/calib.dat:system/etc/calib.dat \
     vendor/samsung/loganreltexx/proprietary/etc/param.dat:system/etc/param.dat \
