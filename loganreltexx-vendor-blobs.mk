@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_imx175_preview.so:system/vendor/lib/libchromatix_imx175_preview.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_imx175_zsl.so:system/vendor/lib/libchromatix_imx175_zsl.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_imx175_zsl_drama.so:system/vendor/lib/libchromatix_imx175_zsl_drama.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_imx175_zsl_panorama.so:system/vendor/lib/libchromatix_imx175_zsl_panor
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_imx175_zsl_panorama.so:system/vendor/lib/libchromatix_imx175_zsl_panor \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k3h5xa_antishake.so:system/vendor/lib/libchromatix_s5k3h5xa_antishake.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k3h5xa_default_video.so:system/vendor/lib/libchromatix_s5k3h5xa_default_video.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k3h5xa_lls.so:system/vendor/lib/libchromatix_s5k3h5xa_lls.so \
