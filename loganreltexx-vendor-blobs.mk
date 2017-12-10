@@ -45,9 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/loganreltexx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/loganreltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/bin/rild:system/vendor/bin/rild \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
-    vendor/samsung/loganreltexx/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+	vendor/samsung/loganreltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
