@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so:system/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt.so:system/vendor/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so:system/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libC.so:system/vendor/lib/libC.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libimage-jpeg-dec-omx-comp.so:system/vendor/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
