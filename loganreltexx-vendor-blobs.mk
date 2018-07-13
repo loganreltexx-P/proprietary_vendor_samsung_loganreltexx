@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/loganreltexx/proprietary/etc/calib.dat:system/etc/calib.dat \
     vendor/samsung/loganreltexx/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/loganreltexx/proprietary/etc/sensors.dat:system/etc/sensors.dat \
+    vendor/samsung/loganreltexx/proprietary/vendor/lib/libacdapi_azi.so:system/vendor/lib/libacdapi_azi.so \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/sensors.vendor.msm8960.so:system/vendor/lib/sensors.vendor.msm8960.so \
     vendor/samsung/loganreltexx/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/loganreltexx/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
